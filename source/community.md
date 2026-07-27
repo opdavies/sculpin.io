@@ -42,3 +42,14 @@ powered site you'd like to showcase here? Send a Pull Request to the
 GitHub, or reach out to <strong><a href="https://phpc.social/@sculpin">@sculpin@phpc.social</a></strong> on Mastodon!
 
 {% include 'includes/powered-by.html' %}
+
+<hr>
+
+## Bundles
+
+Bundles extend Sculpin with extra functionality. Have one you'd like listed
+here? Add the <code>sculpin-bundle</code> topic to your repository on GitHub, or
+send a Pull Request to the <a href="https://github.com/sculpin/sculpin.io">sculpin.io</a>
+repository.
+
+{% include 'includes/bundles.html' %}
