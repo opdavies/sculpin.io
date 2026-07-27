@@ -1,0 +1,384 @@
+# Sculpin bundles listed on sculpin.io.
+#
+# `bundles` is rendered on the home page and the community page. `discovered`
+# holds repositories found by scripts/fetch-bundles.php that a maintainer has
+# not reviewed yet, and is never rendered. `ignored` repositories are skipped
+# by discovery entirely.
+#
+# To add a bundle by hand, add an entry to `bundles` with at least `name`,
+# `repository` and `description`, then run:
+#
+#     composer fetch-bundles
+#
+# That run fills in the rest. It refreshes description, version, updated,
+# stars, archived and abandoned on every run; `name` and any other keys you add
+# are left alone.
+#
+# Both lists are kept in alphabetical order here. The site renders `bundles`
+# most recently updated first, and skips anything marked abandoned; see
+# source/_views/includes/bundles.html.
+
+bundles:
+    -
+        name: 'Icelus Thumbnail Generator'
+        package: beryllium/icelus
+        repository: 'https://github.com/beryllium/icelus'
+        description: 'Generate image thumbnails from within Twig.'
+        version: 2.2.0
+        updated: '2026-07-07'
+        stars: 10
+        archived: false
+        abandoned: false
+    -
+        name: 'Meta Navigation Bundle'
+        package: janbuecker/sculpin-meta-navigation-bundle
+        repository: 'https://github.com/janbuecker/sculpin-meta-navigation-bundle'
+        description: 'Build navigation menus from page front matter, with up to three levels of depth.'
+        version: v0.9
+        updated: '2022-08-26'
+        stars: 0
+        archived: false
+        abandoned: false
+    -
+        name: 'Related Posts Bundle'
+        package: tsphethean/sculpin-related-posts-bundle
+        repository: 'https://github.com/tsphethean/sculpin-related-posts-bundle'
+        description: 'List related posts based on tag and category correlations.'
+        version: 0.1.0
+        updated: '2015-07-22'
+        stars: 5
+        archived: false
+        abandoned: false
+    -
+        name: 'Sort By Field Bundle'
+        package: opdavies/sculpin-twig-sort-by-field-bundle
+        repository: 'https://github.com/opdavies/sculpin-twig-sort-by-field-bundle'
+        description: 'Sort arrays by key from within Twig.'
+        version: 1.0.0
+        updated: '2017-03-05'
+        stars: 0
+        archived: false
+        abandoned: false
+    -
+        name: 'Twig Markdown Bundle'
+        package: opdavies/sculpin-twig-markdown-bundle
+        repository: 'https://github.com/opdavies/sculpin-twig-markdown-bundle'
+        description: 'Render Markdown strings from within Twig.'
+        version: 0.2.0
+        updated: '2019-12-28'
+        stars: 0
+        archived: false
+        abandoned: false
+discovered:
+    -
+        name: 'Ab Test Bundle'
+        package: yaenergetik/sculpin-ab-test-bundle
+        repository: 'https://github.com/Andrey96/sculpin-ab-test-bundle'
+        description: 'ABTest Bundle for Sculpin'
+        version: null
+        updated: '2016-08-18'
+        stars: 0
+        archived: false
+        abandoned: false
+    -
+        name: 'Ab Test Bundle'
+        package: yaenergetik/sculpin-ab-test-bundle
+        repository: 'https://github.com/ertrade/sculpin-ab-test-bundle'
+        description: 'ABTest Bundle for Sculpin'
+        version: null
+        updated: '2016-08-19'
+        stars: 0
+        archived: false
+        abandoned: false
+    -
+        name: 'Algolia Search Bundle'
+        package: timbroder/sculpin-algolia
+        repository: 'https://github.com/timbroder/SculpinAlgoliaSearchBundle'
+        description: 'Provides search in static site via Algolia https://www.algolia.com'
+        version: null
+        updated: '2016-01-05'
+        stars: 2
+        archived: false
+        abandoned: false
+    -
+        name: 'Calendarian Bundle'
+        package: sharkpp/sculpin-calendarian-bundle
+        repository: 'https://github.com/sharkpp/sculpin-calendarian-bundle'
+        description: 'This is a Bundle that generates the index page to blog date directory for Sculpin.'
+        version: null
+        updated: '2016-09-03'
+        stars: 1
+        archived: false
+        abandoned: false
+    -
+        name: 'Commonmark Bundle'
+        package: bcremer/sculpin-commonmark-bundle
+        repository: 'https://github.com/bcremer/sculpin-commonmark-bundle'
+        description: 'Sculpin league/commonmark bundle'
+        version: 0.5.0
+        updated: '2021-11-08'
+        stars: 3
+        archived: false
+        abandoned: false
+    -
+        name: 'Content Generator Bundle'
+        package: opdavies/sculpin-content-generator-bundle
+        repository: 'https://github.com/opdavies/sculpin-content-generator-bundle'
+        description: null
+        version: 1.1.1
+        updated: '2018-02-18'
+        stars: 0
+        archived: false
+        abandoned: false
+    -
+        name: 'Contentful Bundle'
+        package: airtonzanon/sculpin-contentful-bundle
+        repository: 'https://github.com/airtonzanon/sculpin-contentful-bundle'
+        description: 'Fetch contentful content and dump the markdowns as posts for sculpin'
+        version: 0.0.10
+        updated: '2024-02-27'
+        stars: 1
+        archived: false
+        abandoned: false
+    -
+        name: 'Date Navigation Bundle'
+        package: jbouzekri/sculpin-date-navigation-bundle
+        repository: 'https://github.com/jbouzekri/SculpinDateNavigationBundle'
+        description: 'Generate date navigation block (with pages) in Sculpin'
+        version: 1.0.0
+        updated: '2014-07-21'
+        stars: 1
+        archived: false
+        abandoned: false
+    -
+        name: 'Dflydev Twig GitHub Gist Bundle'
+        package: dflydev/twig-github-gist-sculpin-bundle
+        repository: 'https://github.com/dflydev/dflydev-twig-gitHub-gist-sculpin-bundle'
+        description: 'Twig GitHub Gist Sculpin Bundle'
+        version: null
+        updated: '2012-08-15'
+        stars: 2
+        archived: false
+        abandoned: false
+    -
+        name: 'Editor Bundle'
+        package: mavimo/sculpin-editor-bundle
+        repository: 'https://github.com/mavimo/sculpin-editor-bundle'
+        description: 'Sculpin Editor Bundle'
+        version: null
+        updated: '2017-05-23'
+        stars: 5
+        archived: false
+        abandoned: false
+    -
+        name: 'Facebook Importer Bundle'
+        package: technikh/sculpin-fb-bundle
+        repository: 'https://github.com/TechNikh/Sculpin-Facebook-Importer-Bundle'
+        description: null
+        version: null
+        updated: '2022-05-20'
+        stars: 1
+        archived: false
+        abandoned: false
+    -
+        name: 'Fillet Bundle'
+        package: dragonmantank/fillet-sculpin-bundle
+        repository: 'https://github.com/dragonmantank/fillet-sculpin-bundle'
+        description: 'Bundle wrapper for Fillet'
+        version: v0.1.0
+        updated: '2015-09-01'
+        stars: 0
+        archived: false
+        abandoned: false
+    -
+        name: 'Gist Embed Bundle'
+        package: opdavies/sculpin-gist-embed-bundle
+        repository: 'https://github.com/opdavies/sculpin-gist-embed-bundle'
+        description: 'Allows for embedding GitHub Gists into a Sculpin site.'
+        version: 0.1.0
+        updated: '2018-02-18'
+        stars: 0
+        archived: false
+        abandoned: false
+    -
+        name: 'Gulp Bundle'
+        package: petemc/sculpin-gulp-bundle
+        repository: 'https://github.com/petemcfarlane/sculpin-gulp-bundle'
+        description: 'Runs a gulp task called `sculpin` from your `gulpfile.js` after running the `sculpin generate` command.'
+        version: v0.0.1
+        updated: '2016-04-13'
+        stars: 0
+        archived: false
+        abandoned: false
+    -
+        name: 'Latest Posts Bundle'
+        package: null
+        repository: 'https://github.com/opdavies/sculpin-latest-posts-bundle'
+        description: 'A custom bundle for displaying the latest posts on a Sculpin site.'
+        version: null
+        updated: '2015-08-08'
+        stars: 0
+        archived: false
+        abandoned: false
+    -
+        name: 'Less Bundle'
+        package: bcremer/sculpin-less-bundle
+        repository: 'https://github.com/bcremer/sculpin-less-bundle'
+        description: 'Sculpin LESS bundle'
+        version: 0.3.0
+        updated: '2023-01-09'
+        stars: 6
+        archived: false
+        abandoned: false
+    -
+        name: 'Lists Bundle'
+        package: delssajri/sculpin-lists-bundle
+        repository: 'https://github.com/delssajri/sculpin-lists-bundle'
+        description: null
+        version: null
+        updated: '2016-03-14'
+        stars: 0
+        archived: false
+        abandoned: false
+    -
+        name: 'Mt Haml Bundle'
+        package: fervo/sculpin-mthaml-bundle
+        repository: 'https://github.com/fervo/SculpinMtHamlBundle'
+        description: 'MtHaml Bundle for Sculpin'
+        version: null
+        updated: '2016-01-12'
+        stars: 0
+        archived: false
+        abandoned: false
+    -
+        name: 'OEmbed Bundle'
+        package: bangpound/sculpin-oembed-bundle
+        repository: 'https://github.com/bangpound/Sculpin-oEmbed-Bundle'
+        description: 'oEmbed bundle for Sculpin static site generator'
+        version: null
+        updated: '2015-07-11'
+        stars: 0
+        archived: false
+        abandoned: false
+    -
+        name: 'Pages Bundle'
+        package: fab/sculpin-pages-bundle
+        repository: 'https://github.com/fabarea/sculpin-pages-bundle'
+        description: 'Sculpin Pages Bundle'
+        version: 1.0.0
+        updated: '2015-03-03'
+        stars: 5
+        archived: false
+        abandoned: false
+    -
+        name: 'Press Bundle'
+        package: null
+        repository: 'https://github.com/simensen/press-sculpin-bundle'
+        description: '[WIP] Quick example of building a Sculpin bundle to add another type of content'
+        version: null
+        updated: '2013-12-26'
+        stars: 0
+        archived: false
+        abandoned: false
+    -
+        name: 'Projects Bundle'
+        package: mavimo/sculpin-projects-bundle
+        repository: 'https://github.com/mavimo/sculpin-projects-bundle'
+        description: 'Sculpin Projects Bundle'
+        version: null
+        updated: '2014-01-02'
+        stars: 0
+        archived: false
+        abandoned: false
+    -
+        name: 'Redirect Bundle'
+        package: mavimo/sculpin-redirect-bundle
+        repository: 'https://github.com/mavimo/sculpin-redirect-bundle'
+        description: 'Sculpin Redirect Bundle'
+        version: null
+        updated: '2015-07-26'
+        stars: 6
+        archived: false
+        abandoned: false
+    -
+        name: 'Related Content Bundle'
+        package: wjzijderveld/sculpin-related-content-bundle
+        repository: 'https://github.com/wjzijderveld/SculpinRelatedContentBundle'
+        description: 'Sculpin Bundle to generate related content data'
+        version: 1.0.1
+        updated: '2014-07-31'
+        stars: 4
+        archived: true
+        abandoned: true
+    -
+        name: 'Scss Bundle'
+        package: devworks/sculpin-scss-bundle
+        repository: 'https://github.com/devworks/sculpin-scss-bundle'
+        description: 'Sculpin SCSS Bundle'
+        version: '0.1'
+        updated: '2019-02-20'
+        stars: 0
+        archived: false
+        abandoned: false
+    -
+        name: 'Search Bundle'
+        package: jbouzekri/sculpin-search-bundle
+        repository: 'https://github.com/jbouzekri/SculpinSearchBundle'
+        description: 'Provides search in static site via indextank search engine'
+        version: 1.0.1
+        updated: '2014-07-21'
+        stars: 1
+        archived: false
+        abandoned: false
+    -
+        name: 'Show Layout Bundle'
+        package: dupuchba/sculpin-show-layout-bundle
+        repository: 'https://github.com/dupuchba/sculpin-show-layout-bundle'
+        description: '[WIP] Sculpin bundle that attempt to display original layout to the user'
+        version: null
+        updated: '2015-03-25'
+        stars: 0
+        archived: false
+        abandoned: false
+    -
+        name: 'Sitemap Bundle'
+        package: nickpeirson/sculpin-sitemap-bundle
+        repository: 'https://github.com/nickpeirson/sculpin-sitemap-bundle'
+        description: null
+        version: 0.1.1
+        updated: '2020-08-18'
+        stars: 3
+        archived: false
+        abandoned: false
+    -
+        name: 'Tag Cloud Bundle'
+        package: jbouzekri/sculpin-tag-cloud-bundle
+        repository: 'https://github.com/jbouzekri/SculpinTagCloudBundle'
+        description: 'Generate a tag cloud in sculpin'
+        version: '1.2'
+        updated: '2015-07-12'
+        stars: 2
+        archived: false
+        abandoned: false
+    -
+        name: 'Twig Markdown Bundle'
+        package: opdavies/sculpin-twig-markdown-bundle
+        repository: 'https://github.com/emrysal/sculpin-twig-markdown-bundle'
+        description: null
+        version: 0.2.0
+        updated: '2021-05-06'
+        stars: 0
+        archived: false
+        abandoned: false
+    -
+        name: 'Webpack Encore Bundle'
+        package: niels-nijens/sculpin-webpack-encore-bundle
+        repository: 'https://github.com/jacktonkin/sculpin-webpack-encore-bundle'
+        description: 'Sculpin integration with Webpack Encore!'
+        version: null
+        updated: '2023-12-05'
+        stars: 0
+        archived: false
+        abandoned: false
+ignored:
+    - 'https://github.com/sculpin/posts-bundle'

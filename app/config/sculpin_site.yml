@@ -1,3 +1,6 @@
+imports:
+    - bundles.yml
+
 title: Sculpin
 subtitle: PHP Static Site Generator
 assets_version: 6

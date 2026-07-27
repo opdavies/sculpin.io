@@ -8,6 +8,9 @@
         }
     },
     "scripts": {
+        "fetch-bundles": [
+            "@php scripts/fetch-bundles.php"
+        ],
         "watch": [
             "Composer\\Config::disableProcessTimeout",
             "vendor/bin/sculpin generate --watch --server"
